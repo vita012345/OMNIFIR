@@ -1,0 +1,57 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+img{
+width: 100%;
+
+}
+
+.container{
+
+    display: grid;
+grid-template-columns: repeat(3, 1fr) ;
+grid-template-rows: repeat(4, 500px ) ;
+
+}
+.photo{
+
+    margin: 3em;
+
+}
+
+
+.left{
+background-color: blueviolet;
+    width: 10%;
+}
+.right{
+
+    width: 90%;
+}
+
+.ves_text{
+    display: flex;
+}
+
+
+.panel{
+    display: flex;
+    justify-content: space-between;
+   background-color: rgb(54, 208, 46);
+}
+.panel>nav>ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    width: 50%;
+} 
+.panel>nav>ul>li{
+    display: block;
+   padding: 10px;
+   list-style: none;
+
+}
