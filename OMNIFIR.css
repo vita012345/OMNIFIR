@@ -1,0 +1,112 @@
+.panel{
+    display: flex;
+    justify-content: space-between;
+   background-color: rgb(183, 189, 183);
+   
+}
+.panel>nav>ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+    width: 50%;
+} 
+.panel>nav>ul>li{
+    display: block;
+   padding: 20px;
+   list-style: none;
+   
+}
+.button{
+    border-radius: 12px;
+    background-color: #eeb600;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+.button1{
+    border-radius: 12px;
+    background-color: #e2d9d9;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+ 
+}
+.button:hover {
+    opacity: 1
+}
+.button1:hover {
+    opacity: 1
+}
+
+.button2{
+    border-radius: 12px;
+    background-color: #e5dddd;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+ 
+}
+.button2:hover {
+    opacity: 1
+}
+
+img{
+width: 40%;
+
+
+}
+
+span{
+padding: 15px;
+
+}
+.setka{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(3, 500px ) ;
+
+}
+
+td{
+    border: 2px solid rgb(0, 0, 0);   
+    
+}
+table{
+    border: 1px solid rgb(0, 0, 0); 
+    border-collapse: collapse  ;
+    width: 30%;
+    text-align: center;
+
+}
+.name{
+background-color: bisque;
+
+}
+
